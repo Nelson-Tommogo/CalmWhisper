@@ -1,0 +1,24 @@
+.moods__card {
+  width: 370px;
+  height: 425px;
+  background-color: white;
+  border-radius: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+  .moods__card {
+    width: 325px;
+    height: 353px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .moods__card {
+    width: 90vw;
+  }
+}

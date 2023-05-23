@@ -1,0 +1,36 @@
+.menu__nav_item {
+  list-style: none;
+  font-size: 44px;
+  line-height: 41px;
+  font-weight: 500;
+  color: var(--primary-light);
+}
+
+.menu__nav_item a {
+  text-decoration: none;
+  color: var(--primary-light);
+}
+
+.menu__nav_item::before {
+  content: "– ";
+}
+
+@media screen and (max-width: 1112px) {
+  .menu__nav_item {
+    font-size: 42px;
+    line-height: 39px;
+    letter-spacing: -0.025em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu__nav_item {
+    font-size: 24px;
+    line-height: 23.5px;
+    letter-spacing: -0.025em;
+  }
+}
+
+.menu__nav_item:hover {
+  animation: 0.7s pop-on-hover ease;
+}

@@ -1,0 +1,21 @@
+.menu__logo {
+  position: absolute;
+  top: 49px;
+  left: 60px;
+  width: 192.3px;
+  height: 50.36px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu__logo {
+    width: 150px;
+    height: 40px;
+    top: 26px;
+    left: 17px;
+  }
+
+  .menu__logo:hover {
+    animation: 0.7s pop-on-hover ease;
+    cursor: pointer;
+  }
+}

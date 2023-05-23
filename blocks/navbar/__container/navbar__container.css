@@ -1,0 +1,14 @@
+.navbar__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  position: fixed;
+  z-index: 3;
+  max-width: 1200px;
+}
+
+.navbar__container_inactive {
+  display: none;
+}

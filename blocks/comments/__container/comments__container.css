@@ -1,0 +1,24 @@
+.comments__container {
+  box-sizing: border-box;
+  max-width: 1050px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 43px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1112px) {
+  .comments__container {
+    width: 85%;
+    justify-content: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .comments__button {
+    margin: auto;
+  }
+}

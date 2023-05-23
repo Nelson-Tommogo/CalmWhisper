@@ -1,0 +1,32 @@
+.menu__container {
+  width: 100vw;
+  height: 500px;
+  background-color: #2f2f2f;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+  .menu__container {
+    height: 438px;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .menu__container {
+    height: 100vh;
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: unset;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+  }
+}

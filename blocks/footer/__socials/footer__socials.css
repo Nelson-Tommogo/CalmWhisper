@@ -1,0 +1,10 @@
+@media screen and (max-width: 800px) {
+  .footer__socials {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.footer__socials:hover {
+  animation: 0.7s pop-on-hover ease;
+}

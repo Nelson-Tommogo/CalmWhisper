@@ -1,0 +1,87 @@
+header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  .header__nav {
+    padding: 2rem 1.5rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+  }
+  .header__nav__content {
+    flex: 8;
+    display: flex;
+    align-items: center;
+  }
+
+.header__nav__content.open {
+    transform: translateX(0);
+  }
+  .header__menu {
+    flex: 4;
+    display: flex;
+    grid-gap: 2.5rem;
+  }
+  .menu__link {
+    cursor: pointer;
+    transition: .2s all;
+  }
+  
+  .menu__link:hover {
+    color: rgb(0, 255, 21);
+  }
+  
+  .menu__link.active {
+    color: red;
+    font-weight: bold;
+  }
+  .header__signup {
+    flex: 4;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn__signup {
+    border: 1px solid #ffffff;
+    font-size: 1.6rem;
+    color: #bb6686;
+    display: inline-block;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .btn__signup:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: -2;
+  }
+  
+  .btn__signup:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #66BB6A;
+    transition: all .3s;
+    z-index: -1;
+  }
+  
+  .btn__signup:hover {
+    color: #ffffff;
+  }
+  
+  .btn__signup:hover:before {
+    width: 100%;
+  }
+  

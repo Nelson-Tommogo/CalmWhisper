@@ -1,0 +1,36 @@
+@import url(./__title/hero__title.css);
+@import url(./__container/hero__container.css);
+@import url(./__list/hero__list.css);
+@import url(./__paragraph/hero__paragraph.css);
+@import url(./__image/hero__image.css);
+
+.hero {
+  padding-top: 130px;
+  padding-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.underline {
+  padding: 0 8px 10px 6px;
+  background-image: url("../../images/underline.svg");
+  -webkit-background-position: 50% 100%;
+  background-position: 50% 100%;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  .hero {
+    padding-top: 119px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .hero {
+    padding-top: 145px;
+  }
+}

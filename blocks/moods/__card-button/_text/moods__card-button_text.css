@@ -1,0 +1,14 @@
+.moods__card-button_text {
+  width: 126px;
+  height: 39px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 800px) {
+  .moods__card-button_text {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

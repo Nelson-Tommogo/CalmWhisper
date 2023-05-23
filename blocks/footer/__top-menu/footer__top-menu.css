@@ -1,0 +1,13 @@
+.footer__top-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+@media screen and (max-width: 613px) {
+  .footer__top-menu {
+    flex-direction: column;
+    padding-bottom: 48px;
+  }
+}

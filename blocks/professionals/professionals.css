@@ -1,0 +1,15 @@
+@import url(./__header/professionals__header.css);
+@import url(./__title/professionals__title.css);
+@import url(./__whos-live/professionals__whos-live.css);
+@import url(./_live-avatar/professionals__live-avatar.css);
+@import url(./__elements/professionals__elements.css);
+@import url(./_live-avatar/professionals__live-avatar.css);
+@import url(./__button/professionals__button.css);
+@import url(./__button/_centered/professionals__button_centered.css);
+
+.professionals {
+  max-width: 1049px;
+  margin: auto;
+  padding-top: 44px;
+  padding-bottom: 81px;
+}

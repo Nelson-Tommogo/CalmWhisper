@@ -1,0 +1,15 @@
+@import url(./__logo/navbar__logo.css);
+@import url(./__container/navbar__container.css);
+@import url(./__menu/navbar__menu.css);
+
+.navbar {
+  padding: 46px 60px 0 60px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 25px 19px 0 19px;
+  }
+}
