@@ -12,12 +12,12 @@ body {
   .logo-container {
       position: relative;
       top: 0;
-      left: 98%;
+      left: 80%;
       transform: translateX(-50%);
     }
     
     img {
-      max-width: 5%;
+      max-width: 350px;
       height: auto;
     }
   h1{
@@ -67,4 +67,18 @@ body {
       display: block;
       margin-top: 20px;
     }
+    .button {
+        display: inline;
+        padding: 10px;
+        background-color: red;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 34px;
+        font-size: 16px;
+      }
+      .button::after {
+        content: "Want to be a Listener";
+        visibility: hidden;
+      }
     
